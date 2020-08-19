@@ -1,0 +1,119 @@
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2 { 
+    font: bold 14px sans-serif ;
+}
+
+body {
+    text-align: center;
+}
+
+header, section, footer, aside, nav, article, hgroup {
+    display: block;
+}
+
+.agrupar {
+    border: 1px solid black;
+    width: 960px;
+    margin: auto;
+    margin-top: 200px auto;
+    padding-right: 0px;
+}
+
+header {
+    background: #146cca;
+    margin: 0px;
+}
+
+.titulo {
+    margin: 0px;
+    padding: 20px;
+    text-align: left;
+}
+
+.menu {
+    background: #31aad9;
+    padding: 1px;
+
+}
+
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    border: 1px solid black;
+    display: inline-block; 
+
+}
+
+.menu ul {
+    margin: 4px;
+    padding-left: 2px;
+    text-align: left;
+}
+
+.seccion {
+    margin: 20px;
+    width: 60%;
+    float: left;
+}
+
+.contenido {
+    display: inline-block;
+}
+
+.columna {
+    width: 33%;
+    float: left;
+    margin-top: 20px;
+    
+}
+
+.columna blockquote {
+    border: 1px solid black; 
+    padding: 30px;
+    background: ;
+    background: #DDEAC8;
+    border-radius: 3px;
+}
+
+.pie {
+    clear: both;
+    padding: 20px;
+    margin: 0px;
+    background: #102a6f;
+    color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+article{
+    background: #DDEAC8;
+    border: 1px solid #131a7c ;
+    padding: 5%;
+    margin-bottom: 15px;
+    border-radius: 3px;
+
+}
+
+article footer {
+    text-align: right;
+}
+
+time {
+    color: #73a99c;
+}
+
+img {
+    width: 100px;
+    margin-top: 15px;
+    border: 15px double black ;
+    border-radius: 10px;
+    
+}
